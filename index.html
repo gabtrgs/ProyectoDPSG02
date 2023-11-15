@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Cover Me</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='js/bootstrap.bundle.js'></script>
+    <script src='js/main.js'></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/assets/img/Logo_1.png" alt="Bootstrap" width="150">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About US</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Catálogo
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="catalog.html">Todos</a></li>
+                                <li><a class="dropdown-item" href="prints.html">Print Collection</a></li>
+                                <li><a class="dropdown-item" href="singers.html">Singers Collection</a></li>
+                                <li><a class="dropdown-item" href="letters.html">Letters Collection</a></li>
+                                <li><a class="dropdown-item" href="otros.html">Otros</a></li>
+                                <li><a class="dropdown-item" href="formulario.html">Personalizado</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="pre-order.html">PreOrder</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="creators.html">Creators</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner-container">
+            <img src="assets/img/banner-c.png" width="100%" />
+            <div class="banner-container_button">
+                <a href="catalog.html" class="font-gatter">Ver más</a>
+            </div>
+        </section>
+        <section class="py-5">
+            <h1 class="text-uppercase text-center font-akira xl">Modelos</h1>
+            <div class="d-flex justify-content-center gap-5 mt-5">
+                <div class="d-flex flex-column align-items-center gap-3 phone-scale">
+                    <img src="assets/img/iphone.png" width="150px" />
+                    <h5>IPhone</h5>
+                </div>
+                <div class="d-flex flex-column align-items-center gap-3 phone-scale">
+                    <img src="assets/img/samsung.png" width="150px" />
+                    <h5>Samsung</h5>
+                </div>
+                <div class="d-flex flex-column align-items-center gap-3 phone-scale">
+                    <img src="assets/img/xiaomi.png" width="150px" />
+                    <h5>Xiaomi</h5>
+                </div>
+                <div class="d-flex flex-column align-items-center gap-3 phone-scale">
+                    <img src="assets/img/huawei.png" width="150px" />
+                    <h5>Huaweii</h5>
+                </div>
+            </div>
+        </section>
+        <section class="collections">
+            <h2 class="text-center collections-title">Colecciones</h2>
+            <h1 class="text-center font-aurora collections-subtitle">On Point</h1>
+            <div class="row justify-content-center mt-4">
+                <div class="col-sm-3 collections-item">
+                    <img src="assets/img/collection_01.jpg" width="100%" />
+                    <a href="prints.html">
+                        <button class="collections-item-button">Ver más</button>
+                    </a>
+                </div>
+                <div class="col-sm-3 collections-item">
+                    <img src="assets/img/collection_02.jpg" width="100%" />
+                    <a href="singers.html">
+                        <button class="collections-item-button">Ver más</button>
+                    </a>
+                </div>
+                <div class="col-sm-3 collections-item">
+                    <img src="assets/img/collection_03.jpg" width="100%" />
+                    <a href="letters.html">
+                        <button class="collections-item-button">Ver más</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="personalizations" id="personalizations">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-end ">
+                    <div class="texts-container">
+                        <p class="font-trash text-your_idea">
+                            Your Idea
+                        </p>
+                        <p class="font-aurora text-your">
+                            your
+                        </p>
+                        <p class="font-aurora text-case">
+                            case
+                        </p>
+                        <p class="">
+                            Personaliza tu case con tus iniciales
+                        </p>
+                        <p class="">
+                            Tu nombre o agrega fotos texto y stickers
+                        </p>
+                        <button class="">¡Personaliza ahora!</button>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div id="carouselAutoplaying" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/g01.png" class="d-block h-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/g02.png" class="d-block h-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/g03.png" class="d-block h-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container row mx-auto justify-content-around">
+            <div class="col d-flex justify-content-center flex-column align-items-center gap-3">
+                <h5>
+                    Contáctanos
+                </h5>
+                <p>
+                    +503 71717171
+                </p>
+                <p>
+                    coverme@gmail.com
+                </p>
+            </div>
+            <div class="col d-flex justify-content-center flex-column align-items-center gap-3 ">
+                <img src="assets/img/Logo_1.png" width="200px" />
+                <p class="text-center">
+                    Derechos reservados. Cover Me El Salvador 2023
+                </p>
+            </div>
+            <div class="col d-flex justify-content-center flex-column align-items-center gap-3">
+                <h5>
+                    Contáctanos
+                </h5>
+                <div>
+                    <a href="https://www.instagram.com/coverme.sv">
+                        <img src="assets/img/instagram.png" width="30px" />
+                    </a>
+                    <a>
+                        <img src="assets/img/tik-tok.png" width="30px" />
+                    </a>
+                    <a>
+                        <img src="assets/img/whatsapp.png" width="30px" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
